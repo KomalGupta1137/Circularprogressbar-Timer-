@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
+.navbar{
+    margin:1rem 1rem;
+    padding:1.5rem 1rem;
+    display:flex;
+    justify-content:space-between
+
+}
+
+.left-component {
+    display:flex;
+    justify-content: space-between;
+    padding: 1 rem;
+ 
+
+}
+.left-component ul {
+    display: flex;
+   
+}
+.menu-icon{
+    display:none;
+}
+
+.left-component li{
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.left-component a{
+    text-decoration: none;
+}
+
+.right-component{
+    display:flex;
+    gap:1rem;
+  
+
+}
+
